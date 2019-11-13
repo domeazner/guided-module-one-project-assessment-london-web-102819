@@ -1,7 +1,7 @@
 require 'pry'
 
 class Review < ActiveRecord::Base
-belongs_to :users
-belongs_to :shows
+belongs_to :user
+belongs_to :show
 
 end
